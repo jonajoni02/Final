@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: rgb(18,15,15);
+    background: linear-gradient(331deg, rgba(18,15,15,1) 53%, rgba(48,48,52,1) 74%, rgba(176,166,171,1) 96%);
+    color: white;
+}
+
+
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(78, 76, 76);
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+}
+button:hover {
+    background-color: rgb(88, 86, 86);
+}
+.sing{
+    background-color: rgb(117, 241, 117);
+    border-radius: 5px;
+    border-color: rgb(8, 8, 8);
+}
+.sing:hover {
+    background-color: rgb(59, 252, 117);
+}
+.learn {
+    background-color: rgb(22, 21, 21);
+    border-radius: 5px;
+    border-color: black;
+}
+.learn:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.container {
+    max-width: 1900px;
+    margin: auto;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header {
+    background-color: black;
+}
+header .logo {
+    margin: 15px;
+    width: 200px;
+}
+.icono {
+    color: white;
+    width: 1,5cm;
+    margin-top: 18px;
+}
+header .explore{
+    color: yellow;
+    font-size: 1.5em;
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+}
+header .nav1 {
+    margin: 15px;
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+}
+header a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+}
+header a:hover {
+    color:rgb(121, 120, 120)
+}
+header .nav2 {
+    flex-direction: row;
+    font-size: 0,5em;
+    margin-left: 19cm;
+}
+.container .menu{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+.container2 {
+    max-width: 1900px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.container2 .texto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1cm;
+    margin-top: 1.5cm;
+}
+.container2 .texto1 {
+    font-size: 2em;
+}
+.container2 .texto2 {
+    font-size: 1.6em;
+}
+.container2 .imagen {
+    width: 714px;
+}
+.container2 .codepen {
+    display: flex;
+    flex-direction: column;
+    margin-left: 17cm;
+    margin-top: 2cm;
+    font-size: 1.4em;
+}
+
+
+.final {
+    align-items: center;
+    background-color: rgb(56, 55, 55);
+    border-spacing: 0cm;
+    align-items: center;    
+}
+.final td{
+    font-size: 1em;
+    border-color: white;
+    border-style: solid;
+    padding: 1cm;
+    width: 15cm;
+    font-size: 0.9cm;
+    text-align: center;
+    border-width: 1px;
+}
+
+
+.container3 {
+    background-color: rgb(31, 29, 29);
+    margin-top: 0px;
+    padding: 9px;
+    color: rgb(31, 29, 29);
+}
